@@ -16,3 +16,7 @@ print(x,y)
 # input from console input()
 name = input("What is your name: ")
 print("Hello,", name)
+
+age = input("What is your age: ")
+print("age:",age)
+print(type(age))
