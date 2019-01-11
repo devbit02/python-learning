@@ -23,3 +23,18 @@ print(s)
 s = "Welcome"
 print(s[1:3])
 print(s[:-1])
+
+
+# in and not in
+s = "Welcome"
+print("come" in s) # True
+print("come" not in s) # False
+
+# string comparison > < <= >= == !=
+print("one != two", "one" != "two")
+
+m = "aabcdddef"
+for i in m:
+    print(i, end="")
+
+print("")
