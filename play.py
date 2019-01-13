@@ -26,5 +26,9 @@ print("integer division: 1 // 2 =", 1 // 2)
 print("exponentiation: 2 ** 4 = ", 2 ** 4)
 print("remainder: 20 % 3 = ", 20 % 3)
 
-print(round(77/3,0)/1)
-print(77//3)
+def namelist(names):
+    s = "{} & {}".format(", ".join(name["name"] for name in names[:-1]),names[-1]["name"])
+    return s
+
+a = namelist([{'name': 'Bart'},{'name': 'Lisa'},{'name': 'Maggie'},{'name': 'Homer'},{'name': 'Marge'}])
+print(a)

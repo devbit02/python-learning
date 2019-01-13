@@ -38,3 +38,17 @@ for i in m:
     print(i, end="")
 
 print("")
+
+t = "xxyybbaftce"
+s = ""
+
+s1 = "loopingisfunbutdangerous"
+s2 = "lessdangerousthancoding"
+
+print("".join(sorted(set(s1+s2))))
+print("".join(sorted(set(s1) | set(s2))))
+# Join!  
+abc = ["a", "b", "c"]
+print("".join(abc))
+print("+".join(abc))
+print(" ".join(abc))
