@@ -16,14 +16,11 @@ a = namelist(list_names)
 print(a)
 
 print(line)
-#[print(x) for x in range(4) if print('checking') or True]
 
-def title_case(title, minor_words):
-    t = title.lower()
-    m = minor_words.lower()
-    result = map(lambda x, y: if x not in y: x.capitalize(), title, minor_words)
-    return result
+a = 0
+for x in range(4):
+    a += x**3
 
-print("KINGS".capitalize())
-print("a clash of KINGS".lower().split(" "))
-title_case('a clash of KINGS', 'a an the of'), 'A Clash of Kings'
+print(a)
+
+
