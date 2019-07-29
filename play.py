@@ -1,5 +1,6 @@
 import math
-
+from os import system
+from time import sleep
 print(math.pi)
 
 # https://thepythonguru.com/python-numbers/
@@ -17,7 +18,7 @@ print(math.pi)
 #print(type(xt))
 
 # Python Operators
-
+system('clear')
 print("addition: 2 + 2 = ", 2 + 2)
 print("subtraction: 21.1 - 4 = ", 21.1 - 4)
 print("multiplication: 300 * 30 = ", 30 * 30)
@@ -31,4 +32,8 @@ def namelist(names):
     return s
 
 a = namelist([{'name': 'Bart'},{'name': 'Lisa'},{'name': 'Maggie'},{'name': 'Homer'},{'name': 'Marge'}])
+print(a)
+
+sleep(5)
+system('clear')
 print(a)
